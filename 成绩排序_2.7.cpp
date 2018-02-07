@@ -37,7 +37,7 @@ int main()
             cin >> stu[i].name >> stu[i].val;
             stu[i].id = i;
         }
-        if (ty == 0) sort(stu, stu + n, cmp0);  // sort函数会把数据按照我们定义的序从“小”到“大”排列
+        if (ty == 0) sort(stu, stu + n, cmp0);  // sort函数会把数据按照我们定义的序从“小”到“大”排列，这个函数在algorithm库里，bits/stdc++.h包含了所有常用的C++函数库
         else sort(stu, stu + n, cmp1);
         for (int i = 0; i < n; i ++) {
             cout << stu[i].name << " " << stu[i].val << endl;
