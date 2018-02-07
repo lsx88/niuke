@@ -21,7 +21,7 @@ struct Student {
     string name;
 } stu[1000];
 
-bool cmp0(const Student & s1, const Student & s2) {
+bool cmp0(const Student & s1, const Student & s2) {  //我们要定义的序是“小于”关系
     return s1.val > s2.val || s1.val == s2.val && s1.id < s2.id;
 }
 
