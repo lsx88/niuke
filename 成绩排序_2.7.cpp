@@ -21,7 +21,7 @@ struct Student {
     string name;
 } stu[1000];
 
-bool cmp0(const Student & s1, const Student & s2) {  //我们要定义的序是“小于”关系
+bool cmp0(const Student & s1, const Student & s2) {  // 我们要定义的序是“小于”关系
     return s1.val > s2.val || s1.val == s2.val && s1.id < s2.id;
 }
 
@@ -37,7 +37,7 @@ int main()
             cin >> stu[i].name >> stu[i].val;
             stu[i].id = i;
         }
-        if (ty == 0) sort(stu, stu + n, cmp0);
+        if (ty == 0) sort(stu, stu + n, cmp0);  // sort函数会把数据按照我们定义的序从“小”到“大”排列
         else sort(stu, stu + n, cmp1);
         for (int i = 0; i < n; i ++) {
             cout << stu[i].name << " " << stu[i].val << endl;
