@@ -1,6 +1,6 @@
 /*
  *  author: Qingsong Lv
- *  Date: 2018.2.25
+ *  date: 2018.2.25
  *  link: https://www.nowcoder.com/practice/4b91205483694f449f94c179883c1fef
  */
 
@@ -14,7 +14,7 @@ using namespace std;
 char s[105];
 int l[105], r[105];
 
-pair<int, int> dfs(int u)  // 返回以u为根的子树的根，和这个子树最右端到输入串的哪里
+pair<int, int> dfs(int u)  // 返回从s[u]开始的子树的根，和这个子树最右端到输入串的哪里
 {
     if (s[u]=='#') return make_pair(-1, u);
     pair<int, int> left = dfs(u+1);
