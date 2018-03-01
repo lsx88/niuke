@@ -8,4 +8,4 @@ Algorithm learning on niuke for Sixia Lian.
 上传好代码后的第二天会由Qingsong Lv批阅代码，对于代码中的可以优化的地方以及一些建议进行注明。
 
 # 刷题链接
-https://www.nowcoder.com/activity/oj
+[https://www.nowcoder.com/activity/oj](https://www.nowcoder.com/activity/oj)
