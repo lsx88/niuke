@@ -9,3 +9,6 @@ Algorithm learning on niuke for Sixia Lian.
 
 # 刷题链接
 [https://www.nowcoder.com/activity/oj](https://www.nowcoder.com/activity/oj)
+
+# CCF-CSP认证
+在[这个网址](http://www.cspro.org/lead/application/ccf/login.jsp)注册一个账号，然后进去以后会有一个认证题库，在里面可以刷往年的题目。
