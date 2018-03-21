@@ -1,5 +1,7 @@
 /*
-ˮ�� 
+水题
+题目链接：https://www.nowcoder.com/practice/0ae4a12ab0a048ee900d1536a6e98315?tpId=85&&tqId=29896&rp=1&ru=/activity/oj&qru=/ta/2017test/question-ranking
+日期：2018.3.22
 */
 #include<iostream>
 #include<bits/stdc++.h>
